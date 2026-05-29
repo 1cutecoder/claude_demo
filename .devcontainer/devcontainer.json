@@ -1,23 +1,13 @@
 {
-    "customizations": { 
-        "codespaces": { 
-          "repositories": {
-            "tymonlin/claude-code-java-reverse": { //Java工程师需要
-                "permissions": {
-                    "contents": "read"
-                 }
-             },
-             "tymonlin/claude-plugin-java": {        //Java工程师需要
-                "permissions": {
-                    "contents": "read"
-                 }
-             },
-            "tymonlin/claude-plugin-frontend": {    //前端工程师需要
-                "permissions": {
-                    "contents": "read"
-                 }
-             }
-           }
-         }
-      }
+    "customizations": {
+        "codespaces": {
+            "repositories": {
+                "1cutecoder/claude_demo": { //Java工程师需要
+                    "permissions": {
+                        "contents": "read"
+                    }
+                }
+            }
+        }
+    }
 }
